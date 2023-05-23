@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<Inquilinatos>
+     <Departamento>
+          <Arrendatario>Nigell</Arrendatario>
+          <Arrendador>Paul</Arrendador>
+          <ContactNo>1234567890</ContactNo>
+          <Email-Arrendatario>tanmaypatil@xyz.com</Email-Arrendatario>
+          <Provincia>Chimborazo</Provincia>
+     </Departamento>
+
+     <Departamento>
+          <Arrendatario>Maria</Arrendatario>
+          <Arrendador>Carlos</Arrendador>
+          <ContactNo>9876543210</ContactNo>
+          <Email-Arrendatario>maria@xyz.com</Email-Arrendatario>
+          <Provincia>Pichincha</Provincia>
+     </Departamento>
+     <Departamento>
+          <Arrendatario>John</Arrendatario>
+          <Arrendador>Sarah</Arrendador>
+          <ContactNo>7890123456</ContactNo>
+          <Email-Arrendatario>john@xyz.com</Email-Arrendatario>
+          <Provincia>Guayas</Provincia>
+     </Departamento>
+     <Departamento>
+          <Arrendatario>Julia</Arrendatario>
+          <Arrendador>David</Arrendador>
+          <ContactNo>5678901234</ContactNo>
+          <Email-Arrendatario>julia@xyz.com</Email-Arrendatario>
+          <Provincia>Esmeraldas</Provincia>
+     </Departamento>
+     <Departamento>
+          <Arrendatario>Luis</Arrendatario>
+          <Arrendador>Maria</Arrendador>
+          <ContactNo>2345678901</ContactNo>
+          <Email-Arrendatario>luis@xyz.com</Email-Arrendatario>
+          <Provincia>Azuay</Provincia>
+     </Departamento>
+</Inquilinatos>
