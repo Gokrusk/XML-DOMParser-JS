@@ -2,13 +2,20 @@ import requests
 
 def run():
 
-    url = "https://api.bitfinex.com/v1/pubticker/btcusd"
+    url = "https://apisimpsons.fly.dev/api/personajes?limit=10"
     response = requests.get(url)
     jsonResponse = response.json()
+    docs = jsonResponse['docs']
 
-    print(f"La cotización actual: 1 BTC = {float(jsonResponse['last_price']):.2f} USD" +
-        f"\nPromedio: {float(jsonResponse['mid']):.2f} USD" +
-        f"\nVolúmen: {float(jsonResponse['volume']):.2f} BTC")
-
+    a = '===================================='
+    title = ' \nPERSONAJES DE LOS SIMPSONS\n'
+    print(title)
+    
+    print(a)
+    for persona in docs:
+        print("Nombre: " + persona["Nombre"] + "\n" +
+              "Ocupación: " + persona["Ocupacion"], end="\n")
+        print(a)
+           
 if __name__ == '__main__':
     run()
